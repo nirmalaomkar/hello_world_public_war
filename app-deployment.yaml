@@ -33,5 +33,6 @@ spec:
       containers:
       - name: devopsapp
         image: myimage
+        imagePullPolicy: always
         ports:
         - containerPort: 8080
