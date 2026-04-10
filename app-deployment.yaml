@@ -29,7 +29,7 @@ spec:
         app: devopsapp
     spec:
       imagePullSecrets:
-        - name: jfrog_login
+        - name: jfrog1
       containers:
         - name: devopsapp
           image: myimage
