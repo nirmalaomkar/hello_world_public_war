@@ -3,14 +3,13 @@ kind: Service
 metadata:
   name: my-service
 spec:
-  type: NodePort
+  type: Loadbalancer
   selector:
     app: devopsapp
   ports:
     - port: 8080
       targetPort: 8080
-      nodePort: 32222
-
+      
 ---
 apiVersion: apps/v1
 kind: Deployment
