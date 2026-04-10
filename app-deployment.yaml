@@ -32,6 +32,6 @@ spec:
     spec:
       containers:
       - name: devopsapp
-        image: myimage:latest
+        image: myimage
         ports:
         - containerPort: 8080
