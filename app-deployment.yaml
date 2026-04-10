@@ -32,6 +32,6 @@ spec:
         - name: jfrog_login
       containers:
         - name: devopsapp
-          image: myimage:${BUILD_NUMBER}
+          image: myimage
           ports:
             - containerPort: 8080
