@@ -32,6 +32,6 @@ spec:
         - name: jfrog-secret1
       containers:
         - name: devopsapp
-          image: myimage
+          image: trialtypobk.jfrog.io/nirmaladocker/myimage
           ports:
             - containerPort: 8080
